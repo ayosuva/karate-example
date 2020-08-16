@@ -28,3 +28,12 @@ Scenario: get call test
     And match response.data.last_name != null  
     * match response.data.job_code == '#notpresent'
 ```
+
+### Cucumber report dependency:
+```xml
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.3.0</version>
+</dependency>
+```
