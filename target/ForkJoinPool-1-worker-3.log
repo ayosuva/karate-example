@@ -1,0 +1,44 @@
+18:08:20.335 karate.env system property was:  
+18:08:20.621 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13)
+
+18:08:20.941 response time in milliseconds: 316.66
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5388
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5c3cc1d5b9a8068a-LHR
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 16 Aug 2020 17:08:24 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d74be79ac33d321b6b88a58851db241711597597704; expires=Tue, 15-Sep-20 17:08:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0499d779900000068a98a23200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:08:20.949 [print] {
+  "ad": {
+    "company": "StatusCode Weekly",
+    "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.",
+    "url": "http://statuscode.org/"
+  },
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  }
+}
+

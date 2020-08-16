@@ -1,0 +1,13 @@
+<testsuite failures="0" name="com/yosuva/apitest/test.feature" skipped="0" tests="1" time="0.570465">
+  <testcase classname="com.yosuva.apitest.test" name="get call test" time="0.570465">
+    <system-out>* def expected_response = read('response.json') ........................... passed
+Given url "https://reqres.in/api/users/2" ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expected_response ................................... passed
+And match response.data.id == 2 ........................................... passed
+And match response.data.last_name != null ................................. passed
+* match response.data.job_code == '#notpresent' ........................... passed</system-out>
+  </testcase>
+</testsuite>
